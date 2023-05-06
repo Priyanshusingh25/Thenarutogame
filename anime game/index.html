@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle of Konoha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <H1 id="beta">Score: <span id="score">0</span> &nbsp; Enemy Passed: <span id="enemies">0</span></H1>
+        <img src="images/jiraya.jpg" id="clone" alt=""><br>
+        <button id="start" onclick="start()">Start Game</button>
+        <button id="restart" style="display: none;" onclick="restart()">Restart Game</button>
+        <p id="guide">
+            Instructions: Use the up and down arrow keys to move. Throw a kunai using any key. <br> You automatically loose if an enemy hits you or you let 5 of them pass. <br> You'll have a special power up once you reach 10 points. <br> You'll have
+            faster rasen-shurikens and your speed and kcm2 mode which saves you more from enemies. <br> But the enemies become faster too.....!
+        </p>
+    </center>
+    <div id="maindiv">
+        <img src="images/naruto.gif" id="naruto" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

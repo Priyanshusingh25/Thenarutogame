@@ -1,0 +1,74 @@
+body {
+    background-image: url('images/akatsuki.jpeg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+#beta {
+    color: gold;
+    text-decoration-color: rgb(255, 47, 92);
+    text-decoration-line: underline;
+}
+
+#clone {
+    position: relative;
+    height: 100px;
+    margin-top: 10%;
+}
+
+#start {
+    width: 15%;
+    height: 50px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(243, 12, 12);
+    font-family: cursive;
+    font-size: 1.2vw;
+    color: white;
+    cursor: pointer;
+}
+
+#restart {
+    width: 17%;
+    height: 40px;
+    margin-top: 10%;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(222, 29, 29);
+    font-family: cursive;
+    font-size: 1.2vw;
+    color: white;
+    cursor: pointer;
+}
+
+#guide {
+    margin-top: 5px;
+    font-family: cursive;
+    font-size: 1.2vw;
+    color: gold;
+}
+
+#naruto {
+    width: 135px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 180px;
+}
+
+.shuriken {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.ninja {
+    width: 70px;
+    height: 100px;
+    position: absolute;
+}
